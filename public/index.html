@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>meta controll panel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+<body>
+    <ul class="nav nav-pills nav-stacked"" role="tablist">
+        <li role="presentation" class="active" >
+            <a href="#upload"  aria-controls="upload" role="tab" data-toggle="tab">upload</a>
+        </li>
+        <li role="presentation">
+            <a href="#remove"  aria-controls="remove" role="tab" data-toggle="tab">remove</a>
+        </li>
+        <li role="presentation">
+            <a href="#download"  aria-controls="download" role="tab" data-toggle="tab">download</a>
+        </li>        
+        <li role="presentation">
+            <a href="#update"  aria-controls="update" role="tab" data-toggle="tab">update</a>
+        </li>
+	</ul>
+	<div class="container">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="upload">
+                upload
+            </div>
+            <div role="tabpanel" class="tab-pane" id="remove">
+                remove
+            </div>
+            <div role="tabpanel" class="tab-pane" id="download">
+                download
+            </div>
+            <div role="tabpanel" class="tab-pane" id="update">
+                upload
+            </div>  
+	</div>
+</body>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js" ></script>
+<script lang="javascript">
+    console.log('hello world');
+</script>
+</html>
